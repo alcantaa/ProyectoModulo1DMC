@@ -36,7 +36,7 @@ else:
   st.write("Estas en el modulo de funciones")
   
   principal = st.number_input("ingrese el Monto del prestamo",value=0)
-  tasa anual = st.number_input("ingrese la tasa anual en decimal",value=0.10)
+  tasa_anual = st.number_input("ingrese la tasa anual en decimal",value=0.10)
   anios = st.number_input("ingrese el numero de años del prestamos ",value=1)
   pagos_por_anio = st.number_input("ingrese la Cantidad de pagos por año",value=12)
 
