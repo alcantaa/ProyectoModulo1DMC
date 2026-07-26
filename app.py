@@ -27,8 +27,8 @@ elif modulo == "Modulo Array":
   
   st.write(datos_produccion)
   
-  st.write("La produccion total es:" np.sum(datos_produccion))
-  st.write("La produccion promedio es:" np.mean(datos_produccion))
+  st.write("La produccion total es:" , np.sum(datos_produccion))
+  st.write("La produccion promedio es:" , np.mean(datos_produccion))
 
 
 else: 
